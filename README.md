@@ -12,7 +12,11 @@
 --- | --- | --- | ---  
 8 cell | 1090	 | 464 | 81.69 |  
 Epiblast | 2328 | 1062 | 97.08 |  
-ICM | 1456 | 630	 | 90.92 |  
+ICM | 1456 | 630	 | 90.92 |
+```
+bashsciprt: ! ls *pe.bam | xargs -P 4 -tI{} deduplicate_bismark  --bam  --paired  -o s_{} {} 
+
+```
 
 ### c 
 Коллинг проведен
