@@ -14,7 +14,8 @@
 Epiblast | 2328 | 1062 | 97.08 |  
 ICM | 1456 | 630	 | 90.92 | 
 
-bash-scipt:```
+*bash-scipt:*
+```
 ! ls *pe.bam | xargs -P 4 -tI{} deduplicate_bismark  --bam  --paired  -o s_{} {} 
 ```
 
