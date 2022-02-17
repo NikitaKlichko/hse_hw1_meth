@@ -40,8 +40,7 @@ ICM | 1456 | 630	 | 90.92 |
 ### e 
 
 *Code:* 
-```
-	python
+```python
 sns.set_style("darkgrid")
 ind = ['SRR5836473', 'SRR3824222', 'SRR5836475']
 samples = ['8cell', 'Epiblast', 'ICM']
@@ -65,4 +64,4 @@ for i, s in zip(ind, samples):
 ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/methyl2.png) 
 
 **Уровень покрытия** 
-![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/covered2.png) 
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/covered.png)
