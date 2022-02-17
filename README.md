@@ -23,7 +23,7 @@ ICM | 1456 | 630	 | 90.92 |
 Коллинг проведен 
 
 ### d 
-Отчеты в ![html](https://github.com/NikitaKlichko/hse_hw1_meth/tree/main/html)
+Отчеты в [html](https://github.com/NikitaKlichko/hse_hw1_meth/tree/main/html)
 
 **8Cell** 
 ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/8cell1.PNG) 
@@ -41,6 +41,7 @@ ICM | 1456 | 630	 | 90.92 |
 
 *Code:* 
 ```
+	python
 sns.set_style("darkgrid")
 ind = ['SRR5836473', 'SRR3824222', 'SRR5836475']
 samples = ['8cell', 'Epiblast', 'ICM']
@@ -58,3 +59,10 @@ for i, s in zip(ind, samples):
 ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/frea_epiblast.png) 
 ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/freq_icm.png) 
 
+### f 
+
+**Уровень метиллирования** 
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/methyl2.png) 
+
+**Уровень покрытия** 
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/covered2.png) 
