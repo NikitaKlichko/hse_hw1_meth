@@ -7,8 +7,21 @@
 ## Часть 1. Анализ FastQC. 
 | BS-seq | RNA-seq | 
 --- | ---  
-![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/icm_stats.PNG) | ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/rna_stat.PNG) |  
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/icm_stats.PNG) | ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/rna_stat.PNG) | 
+ 
+ Из статистики видно, что процент содержания GC у РНК почти в два раза выше чем BS-seq.
+ 
+| BS-seq | RNA-seq | 
+--- | ---  
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/icm_per_base.PNG) | ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/rna_per_base.PNG) |  
 
+На первом графике содержание Цитозина меньше чем на втором и составляет около 5%. Содержание Тимина в первом случае выше, а Гуанина немного ниже.
+
+| BS-seq | RNA-seq | 
+--- | ---  
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/icm_per_seq.PNG) | ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/rna_per_seq.PNG) | 
+
+Первое распределение по сравнению со вторым имеет явные отклонения от нормального, два пика и смещение в левую сторону. 
 
 ## Часть 2 
 
