@@ -2,7 +2,13 @@
 
 ###### Кличко Никита 
 
-## Часть 1. Анализ FastQC.
+*Ссылка на* [google colab](https://colab.research.google.com/drive/1cLTOv34dX2CA6wlvN2Z44syi1jDfigOk?usp=sharing) 
+
+## Часть 1. Анализ FastQC. 
+| BS-seq | RNA-seq | 
+--- | ---  
+![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/icm_stats.PNG) | ![](https://github.com/NikitaKlichko/hse_hw1_meth/blob/main/imgs/rna_stat.PNG) |  
+
 
 ## Часть 2 
 
